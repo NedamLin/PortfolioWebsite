@@ -1,0 +1,64 @@
+
+
+
+//padding
+.py{
+  &-1{
+    padding: 1rem 0;
+  }
+  &-2{
+    padding: 2rem 0;
+  }
+  &-3{
+    padding: 3rem 0;
+  }
+  &-4{
+    padding: 4rem 0;
+  }
+}
+//margin
+.my{
+  &-1{
+    margin: 1rem 0;
+  }
+  &-2{
+    margin: 2rem 0;
+  }
+  &-3{
+    margin: 3rem 0;
+  }
+  &-4{
+    margin: 4rem 0;
+  }
+}
+
+.btn {
+ &-light {
+    color: #333;
+    background-color: $main-color;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 3px 4px;
+    }
+}
+
+// Backgrounds
+
+.bg {
+  &-main {
+    background: $main-color;
+    color: set-text-color($main-color);
+  }
+  &-dark {
+    background: $dark-color;
+    color: set-text-color($dark-color);
+  }
+  &-light {
+    background: $light-color;
+    color: set-text-color($light-color);
+  }
+  &-medium {
+    background: $medium-color;
+    color: set-text-color($medium-color);
+  }
+}
